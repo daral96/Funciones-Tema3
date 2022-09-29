@@ -1,0 +1,15 @@
+int main () {
+  Coche miCoche;
+  miCoche.MasPuertas();
+  system.out.println(miCoche.puerta);
+
+}
+
+class Coche {
+  public:
+  int puerta = 0;
+  void MasPuertas() {
+    puerta++;
+  }
+  
+}
